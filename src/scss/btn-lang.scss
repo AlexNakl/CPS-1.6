@@ -1,0 +1,10 @@
+.btn-lang {
+	padding-right: 7px;
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color-secondary-text;
+	}
+}
+

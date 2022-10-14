@@ -1,0 +1,107 @@
+.navigation {
+	padding-left: 16px;
+	padding-top: 24px;
+
+	@media (min-width: 768px) {
+		padding-left: 24px;
+		padding-top: 32px;
+	}
+
+	@media (min-width: 1440px) {
+		width: 1120px;
+		padding-left: 32px;
+		padding-right: 32px;
+		padding-top: 8px;
+	}
+
+	&__list {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: space-between;
+		overflow: auto;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: -0.2px;
+		color: $color-secondary-text;
+		
+		/* Скрываем scrollbar для IE, Edge и Firefox */
+		-ms-overflow-style: none;
+		/* IE и Edge */
+		scrollbar-width: none;
+		/* Firefox */
+
+		@media (min-width: 1440px) {
+			flex-wrap: wrap;
+		}
+
+		&::after {
+			content: "";
+			display: block;
+			width: 24px;
+			height: 44px;
+			right: 0;
+			position: absolute;
+			background: linear-gradient(270deg, $color-main 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+		
+			@media (min-width: 1440px) {
+				display: none;
+			}
+		}
+		
+		/* Скрываем scrollbar для Chrome, Safari и Opera */
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+	
+	&__list-item:last-child {
+		padding-right: 16px;
+	
+		@media (min-width: 768px) {
+			padding-right: 24px;
+		}
+	}
+
+	&__button {
+		padding: 8px 10px 8px 16px;
+		border: 2px solid transparent;
+		margin-right: 2px;
+		white-space: nowrap;
+		user-select: none;
+	
+		@media (min-width: 768px) {
+			padding: 8px 10px 8px 16px;
+			margin-right: 0;
+		}
+	
+		@media (min-width: 1440px) {
+			padding: 8px 10px;
+			margin-right: 0;
+		}
+		
+		&--hover:hover,
+		&--focused:focus,
+		&--active:active {
+			outline: none;
+			background-color: white;
+			border: 2px solid $color-border-active;
+			border-radius: 6px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

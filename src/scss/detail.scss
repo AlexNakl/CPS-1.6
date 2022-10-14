@@ -1,0 +1,52 @@
+.detail{
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	padding: 16px;
+	margin-bottom: 40px;
+	max-width: 450px;
+
+	&__btn-offer{
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: -0.2px;
+		margin-top: 16px;
+	}
+
+	&__arrow{
+		display: inline-block;
+		width: 0;
+
+		&::before {
+			content: "";
+			width: 8px;
+			height: 2px;
+			position: relative;
+			margin-left: 7px;
+			display: block;
+			transform: rotate(45deg);
+			border: 1px solid $color-elements;
+			border-radius: 20px;
+			background-color: $color-elements;
+		}
+		
+		&::after {
+			content: "";
+			width: 8px;
+			height: 2px;
+			position: relative;
+			margin-top: 2.25px;
+			margin-left: 7px;
+			display: block;
+			transform: rotate(-45deg);
+			border: 1px solid $color-elements;
+			border-radius: 1px;
+			background-color: $color-elements;
+		}	
+			
+	}
+	
+}
+

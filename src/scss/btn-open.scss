@@ -1,0 +1,7 @@
+.btn-open {
+	margin-top: 46px;
+	
+	&::before {
+			transform: rotate(180deg);
+	}
+}

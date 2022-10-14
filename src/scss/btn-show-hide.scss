@@ -1,0 +1,24 @@
+.btn-show-hide {
+	display: none;
+
+	@media (min-width: 768px) {
+		display: flex;
+		align-items: center;
+		gap: 16px;
+		margin: 24px 9px;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: -0.2px;
+	}
+
+	&::before {
+		@media (min-width: 768px) {
+			content: "";
+			width: 8px;
+			height: 11px;
+			background-image: url(../img/icons/arrows.svg);
+		}
+	}
+}
+

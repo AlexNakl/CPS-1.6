@@ -1,0 +1,83 @@
+.description {
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.2px;
+
+	@media (min-width: 768px) {
+		margin-right: 48px;
+		line-height: 20px;
+		max-width: 490px;
+	}
+
+	@media (min-width: 1120px) {
+		margin-right: 36px;
+	}
+
+	&__text {
+		margin: 24px 16px 0;
+
+		@media (min-width: 768px) {
+			margin: 0;
+		}
+
+		@media (min-width: 1120px) {
+			width: 490px;
+		}
+	}
+
+	&__text-continued {
+		display: none;
+		margin: 24px 16px 0;
+		
+		@media (min-width: 768px) {
+			display: block;
+			margin: 0;
+			margin-top: 24px;
+			height: 40px;
+			overflow: hidden;
+		}
+
+		@media (min-width: 1120px) {
+			height: auto;
+		}
+
+		&--opened{
+			display: block;
+
+			@media (min-width: 768px) {
+				height: auto;
+			}
+		}
+	}
+	
+	&__btn-read-more {
+		margin: 16px 24px;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: -0.2px;
+	
+		@media (min-width: 768px) {
+			margin: 10px 9px;
+		}
+		/*--кнопка не активна--- 1120 ---*/
+		@media (min-width: 1120px) {
+			color: $color-bullet;
+			cursor: auto;
+			margin: 14px 6px;
+		}
+
+		&::before {
+			content: "";
+			width: 8px;
+			height: 11px;
+			background-image: url(../img/icons/arrows.svg);
+		}
+	}
+}
+
+
+	
+	
+	
+		

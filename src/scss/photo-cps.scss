@@ -1,0 +1,15 @@
+
+.photo-cps {
+	width: 100%;
+
+	@media (min-width: 768px) {
+		border-radius: 6px;
+		max-width: 532px;
+		min-width: 360px;
+	}
+
+	@media (min-width: 1120px) {
+		width: 532px;
+	}
+}
+

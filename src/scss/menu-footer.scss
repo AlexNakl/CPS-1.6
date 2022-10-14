@@ -1,0 +1,14 @@
+.menu-footer {
+	padding-left: 24px;
+	margin-top: auto;
+	
+	@media (min-width: 1440px) {
+		margin-top: 50px;
+	}
+
+	&__support {
+		display: flex;
+		align-items: center;
+		gap: 16px;
+	}
+}

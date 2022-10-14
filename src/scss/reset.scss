@@ -1,0 +1,44 @@
+html {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'TT Lakes';
+	font-weight: normal;
+	margin: 0 auto;
+	padding: 0;
+	color: $color-main-text;
+
+	&.modal-open{
+	overflow-y: hidden;
+	}
+}
+
+h1,
+h2,
+ul,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}

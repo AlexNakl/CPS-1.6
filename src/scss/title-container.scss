@@ -1,0 +1,27 @@
+.title-container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 24px;
+
+	@media (min-width: 1440px) {
+		padding-top: 42px;
+	}
+
+	&::before {
+		content: "";
+		width: 8px;
+		height: 40px;
+		margin-left: -4px;
+		margin-right: 16px;
+		border-right: 4px solid $color-secondary-elements;
+		border-radius: 0 4px 4px 0;
+
+		@media (min-width: 768px) {
+			margin-right: 20px;
+		}
+		@media (min-width: 1440px) {
+			margin-right: 30px;
+		}
+	}
+}

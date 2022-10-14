@@ -1,0 +1,23 @@
+.modal-background-curtain{
+	display: none;
+	
+	&--fries-pressed,
+	&--chat-pressed,
+	&--call-pressed{
+		display: block;
+		width: 100vw;
+		height: 100vh;
+		background-color:  rgba(255, 255, 255, 0.96);
+		position: fixed;
+		z-index: 20;
+		left: 0;
+		top: 0;
+
+		@media (min-width: 1440px) {
+			width: 1440px;	
+			margin-left: calc((100vw - 1440px)/2);
+			left:	auto;
+		}
+	}
+
+}

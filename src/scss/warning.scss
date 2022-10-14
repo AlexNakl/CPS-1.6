@@ -1,0 +1,16 @@
+.warning{
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	color: $color-secondary-text;
+	margin-bottom: 19px;
+
+	&__link{
+		color: $color-elements;
+
+		&:visited {
+			color: $color-elements;
+		}
+	}
+}
+
