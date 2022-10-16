@@ -847,7 +847,8 @@ a:visited {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: -0.2px; }
+  letter-spacing: -0.2px;
+  overflow: auto; }
   @media (min-width: 360px) {
     .menu-container {
       width: 360px; } }
@@ -1527,7 +1528,8 @@ a:visited {
   width: 320px;
   height: 100vh;
   box-shadow: 0 0 52px rgba(14, 24, 80, 0.2);
-  background-color: white; }
+  background-color: white;
+  overflow: auto; }
   @media (min-width: 360px) {
     .feedback-container {
       width: 360px; } }
@@ -1598,7 +1600,8 @@ a:visited {
   width: 320px;
   height: 100vh;
   box-shadow: 0 0 52px rgba(14, 24, 80, 0.2);
-  background-color: white; }
+  background-color: white;
+  overflow: auto; }
   @media (min-width: 360px) {
     .back-call-container {
       width: 360px; } }
