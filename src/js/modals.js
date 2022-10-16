@@ -35,12 +35,12 @@ modalBackgroundCurtain.addEventListener('click', backCallModalHidden);
 function menuModalShow() {
 	menuContainer.classList.add('menu-container--fries-pressed');
 	modalBackgroundCurtain.classList.add('modal-background-curtain--fries-pressed');
-	body.classList.add('modal-open');
+	body.classList.add('modal-menu-open');
 }
 function menuModalHidden() {
 	menuContainer.classList.remove('menu-container--fries-pressed');
 	modalBackgroundCurtain.classList.remove('modal-background-curtain--fries-pressed');
-	body.classList.remove('modal-open');
+	body.classList.remove('modal-menu-open');
 }
 
 function feedbackModalShow() {

@@ -17,6 +17,7 @@ body {
 	padding: 0;
 	color: $color-main-text;
 
+	&.modal-menu-open,
 	&.modal-open{
 	overflow-y: hidden;
 	}
