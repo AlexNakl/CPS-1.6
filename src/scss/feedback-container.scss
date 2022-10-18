@@ -15,7 +15,8 @@
 	}
 
 	@media (min-width: 1440px) {
-		width: 440px;		
+		width: 440px;	
+		overflow: visible;	
 	}
 
 	&--chat-pressed{

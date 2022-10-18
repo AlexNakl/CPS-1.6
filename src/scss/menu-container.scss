@@ -22,7 +22,8 @@
 		display: block;
 		order: -1;
 		height: auto;
-		min-width: 320px;		
+		min-width: 320px;	
+		overflow: visible;	
 	}
 
 	&--fries-pressed{
