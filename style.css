@@ -860,7 +860,8 @@ a:visited {
       display: block;
       order: -1;
       height: auto;
-      min-width: 320px; } }
+      min-width: 320px;
+      overflow: visible; } }
   .menu-container--fries-pressed {
     display: flex;
     flex-direction: column;
@@ -1539,7 +1540,8 @@ a:visited {
       width: 320px; } }
   @media (min-width: 1440px) {
     .feedback-container {
-      width: 440px; } }
+      width: 440px;
+      overflow: visible; } }
   .feedback-container--chat-pressed {
     display: block;
     position: fixed;
@@ -1611,7 +1613,8 @@ a:visited {
       width: 320px; } }
   @media (min-width: 1440px) {
     .back-call-container {
-      width: 440px; } }
+      width: 440px;
+      overflow: visible; } }
   .back-call-container--call-pressed {
     display: block;
     position: fixed;
