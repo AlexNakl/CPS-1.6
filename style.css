@@ -573,7 +573,7 @@ a:visited {
     bottom: 16px; }
   .btn--position--right {
     margin-left: auto; }
-  .btn__order {
+  .btn--with-text {
     color: white;
     text-transform: uppercase;
     font-weight: bold;
